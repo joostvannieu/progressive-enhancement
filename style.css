@@ -1,0 +1,93 @@
+/*Style for ChineseFarmer.html*/
+body{
+    max-width: 90%;
+    margin: auto;
+    background: #fffff1;
+    /*background: url("http://eskipaper.com/images/sakura-flower-9.jpg"), linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,231,254,1) 100%);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,231,254,1) 100%);
+    font-family: "Open Sans", serif;
+}
+main{
+}
+p{
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    color: #333333;
+    font-size: 1em;
+}
+a{
+    color: deeppink;
+}
+a:hover{
+    color: blueviolet;
+}
+a:visited{
+    color: blueviolet;
+}
+q{
+    padding-left: 30px;
+    font-size: 160%;
+    background: #eeeeee;
+    border-left: deeppink 3px solid;
+    font-style: italic;
+}
+.quote{
+    width: 50%;
+    margin: 80px auto;
+}
+.quote h2{
+
+}
+.quote p{
+}
+.farmer{
+    border-left: blueviolet 3px solid;
+}
+.villager{
+    border-left: royalblue 3px solid;
+}
+header > h6 > time{
+    background: yellow;
+}
+.good, .bad{
+    text-transform: capitalize;
+}
+.good{
+    color: limegreen;
+}
+.bad{
+    color: indianred;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+p:nth-of-type(1){
+    font-weight: bold;
+}
+img{
+    /*resize: both;
+    overflow: hidden;*/
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin: 0 30px 30px 30px;
+}
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+}
