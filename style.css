@@ -68,7 +68,7 @@ tr:nth-child(odd){
 tr:nth-child(even){
     background-color: whitesmoke;
 }
-p:nth-of-type(1){
+.quote p:nth-of-type(1){
     font-weight: bold;
 }
 img{
